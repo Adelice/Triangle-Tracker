@@ -5,5 +5,7 @@ function triangle(){
 
 if(sideOne === '' || sideTwo === '' || sideThree === '') {
     alert("Please enter three side lengths");
+}else if{
+    
 }
 }
