@@ -2,10 +2,10 @@ function triangle(){
    var sideone = document.getElementById("side1").value;
    var sidetwo = document.getElementById("side2").value;
    var sidethree = document.getElementById("side3").value;
-   var array=['equilateral','isocseles','scalene'];
+   var array=['EQUILATERAL','ISOSCELES','SCALENE'];
   
   if (sideone <= 0 || sidetwo <= 0 || sidethree <= 0)  {
-      alert("Please enter valid sides");
+      alert("Please Enter Valid Sides");
   }
    else if((sideone===sidetwo) && (sidetwo===sidethree) && (sidethree===sideone)) {
     alert(array[0]);
