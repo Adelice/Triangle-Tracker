@@ -8,16 +8,16 @@ function triangle(){
       alert("Please enter valid sides");
   }
    else if((sideone===sidetwo) && (sidetwo===sidethree) && (sidethree===sideone)) {
-    alert("This is an equilateral Triangle");
+    alert(array[0]);
    }
    else if (sideone === sidetwo || sidetwo===sidethree|| sideone ===sidethree ){
-    alert("This is an isosceles Triangle");
+    alert(array[1]);
    }
   
    else if((sideone + sidetwo >= sidethree &&sidetwo + sideone >= sidethree) ||
 (sideone + sidetwo>= sidethree && sidethree + sideone >= sidetwo) || (sidetwo + sidethree >= sideone && sidethree + sidetwo >= sideone))
    {
-         alert("this is a scalene triangle");
+         alert(array[2]);
    }
    else{
        alert("N0T A TRIANGLE");
