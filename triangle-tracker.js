@@ -24,3 +24,11 @@ function triangle(){
    }
 }
 
+function reset(){
+    document.getElementById('tracker').reset();
+}
+
+
+
+
+
